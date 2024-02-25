@@ -1,0 +1,19 @@
+<div class="quizz__container">
+   <div *ngIf="!finishedb" class="quizz_questions">
+    <h2>Parte B</h2>
+    <br>
+    <h3>{{ questionSelectedb.question }}</h3>
+  </div>
+
+  <div *ngIf="!finishedb" class="quizz_options">
+    <button *ngFor="let option of questionSelectedb.options; let i = index" (click)="playerChoose(option.alias)"
+      class="btn-option">
+      {{ option.name}}
+    </button>
+  </div>
+
+  <div *ngIf="finishedb" class="quizz_results">
+    <h1>O seu resultado da parte B é:</h1>
+    <p>{{ answerSelectedb }}</p>
+  </div>
+</div>
