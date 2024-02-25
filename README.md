@@ -2,6 +2,11 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
 
+Com base no projeto da DIO, criei um quizz sobre TDAh.
+
+![image](https://github.com/ErikaDoami/angular-buzzfeed-quizz-tdah/assets/127457828/3bc44f73-3d6b-4815-a5a0-503d769712a6)
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
